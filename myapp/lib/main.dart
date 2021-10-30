@@ -17,6 +17,7 @@ void main() => runApp(MaterialApp(
                 fontSize: 50,
                 fontWeight: FontWeight.bold,
                 letterSpacing: 2.0,
+                fontFamily: 'Mono',
                 color: Colors.green[600]),
           ),
         ),

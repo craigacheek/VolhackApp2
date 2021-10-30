@@ -10,7 +10,14 @@ void main() => runApp(MaterialApp(
           backgroundColor: Colors.purple,
         ),
         body: Center(
-          child: Text('You\'re gonna love this'),
+          child: Text(
+            'You\'re gonna love this',
+            style: TextStyle(
+                fontSize: 50,
+                fontWeight: FontWeight.bold,
+                letterSpacing: 2.0,
+                color: Colors.green[600]),
+          ),
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: () {},

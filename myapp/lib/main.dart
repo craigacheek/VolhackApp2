@@ -1,3 +1,5 @@
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
@@ -5,6 +7,7 @@ void main() => runApp(MaterialApp(
         appBar: AppBar(
           title: Text('World\'s Greatest Password Manager'),
           centerTitle: true,
+          backgroundColor: Colors.purple,
         ),
         body: Center(
           child: Text('You\'re gonna love this'),
@@ -12,6 +15,7 @@ void main() => runApp(MaterialApp(
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           child: Text('Click'),
+          backgroundColor: Colors.blue,
         ),
       ),
     ));
